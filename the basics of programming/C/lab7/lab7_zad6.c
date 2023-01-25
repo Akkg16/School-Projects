@@ -43,4 +43,5 @@ int main(){
     printf("SinX z kalkulatora mojego = %lf\n",sinX);
     printf("SinX z kalkulatora Math.h = %lf\n",sin(x));
     
+    
 }

@@ -1,8 +1,9 @@
-//2. Wczytaæ dwie zmienne a, b, c typu unsigned int z zabezpieczeniem formatu,, obliczyæ i
-//wydrukowaæ wartoœci nastêpuj¹cych wyra¿eñ logicznych a&&b, a||b, !a, !b, !a&&b||a&&!b
-//dla wszystkich kombinacji zmiennych a,b (wartoœci reprezentuj¹cych prawdê i fa³sz).
-//Wydrukowaæ te¿ informacjê czy wartoœci poszczególnych wyra¿eñ reprezentuj¹ wartoœæ logiczn¹
-//prawda czy te¿ fa³sz
+//2. Wczytaï¿½ dwie zmienne a, b, c typu unsigned int z zabezpieczeniem formatu,, obliczyï¿½ i
+//wydrukowaï¿½ wartoï¿½ci nastï¿½pujï¿½cych wyraï¿½eï¿½ logicznych a&&b, a||b, !a, !b, !a&&b||a&&!b
+//dla wszystkich kombinacji zmiennych a,b (wartoï¿½ci reprezentujï¿½cych prawdï¿½ i faï¿½sz).
+//Wydrukowaï¿½ teï¿½ informacjï¿½ czy wartoï¿½ci poszczegï¿½lnych wyraï¿½eï¿½ reprezentujï¿½ wartoï¿½ï¿½ logicznï¿½
+//prawda czy teï¿½ faï¿½sz
+
 #include<stdio.h>
 
 
