@@ -9,7 +9,7 @@ do{
 	if(k==0) printf("Blad formatu");
 	if(k==1&&x<=0) printf("x nie moze byc ujemne");
 	fflush(stdin);
-}while(k==0||x<0||x>4000000);
+}while(k==0||x<0||x>9999999);
 z = x;
 printf("z=%d",z);
 c6=z/1000000;
@@ -149,6 +149,14 @@ if(c4==0&&c5==0&&c6==0&&c3!=0){
 			case 9: printf("dziewiec "); break;
 	}
 	}
+    
+    switch(c0%10) {
+    case 1: printf("zloty"); break;
+    case 2:
+    case 3:
+    case 4: printf("zlote"); break;
+    default: printf("zlotych");
+}
 	getchar();
 	return 0;
 }
